@@ -14,7 +14,6 @@ if (urlPath === '/') {
     // await clearCollection();
     results = await retrieve();
     res.end(JSON.stringify(results));
-    // res.end('Hello, World! This is the /api route.');
 } else {
   res.end('404 Not Found');
 }

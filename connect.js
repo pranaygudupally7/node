@@ -1,9 +1,7 @@
 const uri = "mongodb+srv://pgudu2:BgUUfcEcvL0EGtVt@cluster0.n0tmohf.mongodb.net/?retryWrites=true&w=majority";
 const fs = require('fs');
 
-// https://cloud.mongodb.com/v2/626efd9c4f6e60024ec97425#metrics/replicaSet/626eff2218b56a3613ccded2/explorer/bookdb/bookcollection/find
 const {MongoClient} = require('mongodb');
-// const  {DoctorModel } = require('./model');
 
 const dbName = "database1";
 const collectionName = "doctors1";
@@ -25,7 +23,6 @@ async function upload(){
     const dataPath = path.join(__dirname, 'data.json');
     const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
-    // const data = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
 
     try {
         const insertManyResult = await collection.insertMany(data);
@@ -48,7 +45,6 @@ async function retrieve(){
 async function clearCollection(){
     await client.db('database1').collection('doctors1').deleteMany({});
 
-    // await collectionName.deleteMany({});
     console.log("stuff deleted");
 }
 module.exports = {run,upload,retrieve,clearCollection};

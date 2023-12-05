@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "name": "Maharaj Yesh",
+      "name": "Ron Hayes",
       "speciality": "Cardiology",
       "availability": "Tues, Thurs. Fri",
       "price": "200",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "name": "Geetanjali",
+      "name": "Sophia Benett",
       "speciality": "Orthopedics",
       "availability": "Mon, Wed, Sat",
       "price": "180",
