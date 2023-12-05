@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Maharaj Yesh",
+      "speciality": "Cardiology",
+      "availability": "Tues, Thurs. Fri",
+      "price": "200",
+      "experience" : 12,
+      "online" : true,
+      "about": "Dr. Ron Hayes, a seasoned cardiologist, orchestrates a symphony of heart care, where each beat is a testament to his expertise. With a compassionate touch, he navigates the intricate rhythms of cardiovascular health, sculpting personalized plans for each patient. Dr. Hayes, a maestro in the realm of cardiology, harmonizes cutting-edge knowledge with genuine empathy, ensuring every heartbeat is a note in the melody of well-being. Entrust your heart to the virtuoso, Dr. Ron Hayes, and let his dedication compose a healthier and harmonious future for you. With unwavering commitment, Dr. Hayes believes in fostering a culture of heart health that transcends the confines of a medical office. His passion extends beyond diagnoses, reaching into the realm of patient education and empowerment. Through engaging workshops and insightful publications, Dr. Hayes endeavors to enrich lives by instilling a profound understanding of cardiovascular well-being. As a leader in the field, he actively contributes to medical research, advancing the frontiers of cardiac science. Dr. Ron Hayes, a beacon of cardiovascular excellence, invites you to join him on a journey towards a heart-healthy life."
+    },
+    {
+      "id": 2,
+      "name": "Geetanjali",
+      "speciality": "Orthopedics",
+      "availability": "Mon, Wed, Sat",
+      "price": "180",
+      "experience" : 19,
+      "online" : false,
+      "about": "Dr. Sophia Bennett, a luminary in orthopedics, meticulously tends to musculoskeletal health. With a caring demeanor, she customizes treatment plans, sculpting a path to physical vitality. Dr. Bennett, an artisan of bone care, blends expertise with empathy, mending bones and restoring mobility. Trust in the skilled hands of Dr. Sophia Bennett for a journey towards resilient orthopedic wellness. Dr. Bennett's commitment extends beyond the clinic, as she actively engages in community outreach programs focused on promoting bone health awareness. Through interactive seminars and wellness initiatives, she empowers individuals to take charge of their orthopedic well-being. Dr. Bennett's dedication to her patients is marked by a holistic approach, addressing not just physical symptoms but also considering the emotional and lifestyle factors that impact musculoskeletal health. With a passion for continuous learning, Dr. Bennett stays at the forefront of orthopedic advancements, ensuring her patients benefit from the latest innovations in bone care. Join Dr. Sophia Bennett in crafting a future where every step is a testament to the strength and resilience of your musculoskeletal system."
+    },
+    {
+      "id": 3,
+      "name": "Elijah Foster",
+      "speciality": "Dermatology",
+      "availability": "Tue, Thu, Fri",
+      "price": "150",
+      "experience" : 14,
+      "online" : false,
+      "about": "Dr. Elijah Foster, a trailblazer in dermatology, unveils the secrets to radiant skin health. With a keen eye for beauty, he crafts skincare regimens that resonate with each unique complexion. Dr. Foster, a connoisseur of dermatological arts, combines precision with care, unveiling a canvas of healthy, glowing skin. Let Dr. Elijah Foster be your guide to a skin journey that reflects your inner radiance. Dr. Foster's passion extends to demystifying skincare myths and misconceptions. Through informative publications and engaging social media content, he educates and empowers individuals to make informed choices for their skin health. Beyond clinical care, Dr. Foster is an advocate for inclusivity in dermatology, promoting skincare solutions that cater to diverse skin types and tones. As a researcher, he contributes to advancements in dermatological science, driving innovations that redefine standards of skin care excellence. Join Dr. Elijah Foster on a transformative voyage towards skin health, where each step unveils a more radiant and confident you."
+    },
+    {
+      "id": 4,
+      "name": "Olivia Turner",
+      "speciality": "Pediatrics",
+      "availability": "Mon, Wed, Fri",
+      "price": "160",
+      "experience" : 11,
+      "online" : true,
+      "about": "Dr. Olivia Turner, a guardian of little smiles, champions pediatric care with tenderness. With a playful spirit, she nurtures the health and happiness of young hearts. Dr. Turner, a maestro of pediatric medicine, harmonizes medical expertise with the warmth of a caring embrace. Entrust your little ones to the compassionate hands of Dr. Olivia Turner for a journey of vibrant, healthy childhood. Dr. Turner's commitment to pediatric well-being extends to community initiatives focused on promoting child health and safety. Through interactive workshops and community outreach programs, she strives to create environments that foster the physical and emotional development of children. Dr. Turner's pediatric care philosophy is rooted in creating a partnership with parents, valuing their insights and collaborating to ensure the holistic well-being of every child under her care. With a focus on preventive care and early intervention, Dr. Olivia Turner invites you to embark on a journey where every giggle and every milestone is a celebration of a thriving childhood."
+    },
+    {
+      "id": 5,
+      "name": "Nathan Cooper",
+      "speciality": "Cardiology",
+      "availability": "Wed, Thu, Sat",
+      "price": "220",
+      "experience" : 21,
+      "online" : false,
+      "about": "Dr. Nathan Cooper, a virtuoso in cardiology, orchestrates heart care with precision and dedication. With a steady hand, he navigates the intricate rhythms of cardiovascular health, composing personalized wellness plans. Dr. Cooper, a guardian of heartbeats, blends cutting-edge knowledge with genuine compassion, ensuring every pulse resonates with vitality. Trust in the expertise of Dr. Nathan Cooper for a heart-healthy journey. Dr. Cooper's commitment extends beyond the clinic, as he actively engages in initiatives promoting heart health awareness. Through educational campaigns and public speaking events, he strives to empower individuals to prioritize cardiovascular wellness. As a researcher in the field of cardiology, Dr. Cooper contributes to groundbreaking studies that shape the future of cardiovascular care. Join Dr. Nathan Cooper in crafting a future where each heartbeat is a testament to a thriving and resilient cardiovascular system."
+    },
+    {
+      "id": 6,
+      "name": "Ava Mitchell",
+      "speciality": "Dentistry",
+      "availability": "Tue, Fri, Sun",
+      "price": "120",
+      "experience" : 6,
+      "online" : true,
+      "about": "Dr. Ava Mitchell, a luminary in dentistry, sculpts smiles with precision and care. With a gentle touch, she tends to oral health, creating personalized dental artistry. Dr. Mitchell, a maestro of dental wellness, harmonizes expertise with warmth, ensuring every smile radiates confidence. Trust in the skilled hands of Dr. Ava Mitchell for a journey towards vibrant and healthy smiles. Dr. Mitchell's commitment to oral health education is reflected in her involvement in community programs aimed at promoting dental awareness. Through informative sessions and collaboration with schools, she strives to instill good oral hygiene habits from a young age. Dr. Mitchell's dental artistry extends beyond clinical excellence, incorporating a keen understanding of aesthetic principles to create smiles that are both healthy and beautiful. Join Dr. Ava Mitchell in embracing a journey where every smile tells a story of confidence, well-being, and dental artistry."
+    }
+  ]
+  
