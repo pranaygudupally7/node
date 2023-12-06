@@ -1,0 +1,404 @@
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./grid.css">
+    <script src="./script.js"></script>
+    <style>
+      body {
+  margin: 0;
+  background-image: url(portfolio.jpg);
+}
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  border: 10px solid white;
+  display: grid;
+  width: 1200px;
+  grid-template-columns: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;    
+}
+nav li{
+    flex: 1;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+@media (max-width: 500px) {
+    header {
+        padding: 10px; /* Adjust padding for better mobile display */
+    }
+
+    nav ul {
+        flex-direction: column; /* Change navigation items to a vertical layout */
+    }
+
+    nav li {
+        text-align: center; /* Align navigation text to the center for better mobile display */
+    }
+
+    nav ul li {
+        display: block; /* Make navigation items stack vertically */
+        margin: 10px;
+    }
+}
+
+#myimage{
+    border-radius: 50%;
+    width: 180px;
+    height: 120px;
+    align-self: flex-end;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    border: 10px solid cornsilk;
+    width: 1200px;
+    grid-template-columns: auto;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+      display: none;
+    }
+  
+    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+  @media (max-width: 500px) {
+      header {
+          padding: 10px; /* Adjust padding for better mobile display */
+      }
+  
+      nav ul {
+          flex-direction: column; /* Change navigation items to a vertical layout */
+      }
+  
+      nav li {
+          text-align: center; /* Align navigation text to the center for better mobile display */
+      }
+  
+      nav ul li {
+          display: block; /* Make navigation items stack vertically */
+          margin: 10px;
+      }
+  }
+    #myimage1{
+      border-radius: 50%;
+      width: 180px;
+      height: 120px;
+    }
+     
+    body {
+      margin: 0;
+      background-image: url("https://thumbs2.imgbox.com/75/74/vKgek7KY_t.jpg");
+    }
+    /* Style the header */
+    .header {
+      padding: 20px;
+      text-align: center;
+      border: 10px solid white;
+      display: grid;
+      width: 1200px;
+      grid-template-columns: auto;
+    }
+    .grid-container1 {
+      text-align: left;
+      display: grid;
+      width: 1200px;
+      grid-template-columns: auto;
+      padding: 10px;
+      border: 10px solid white;
+      background-color: wheat;
+    }
+    .grid-container2 {
+      display: grid;
+      width: 1200px;
+      padding: 10px;
+      border: 10px solid white;
+      grid-template-columns: auto;
+      background-color: #fed766;
+    }
+    .grid-container3 {
+      display: grid;
+      width: 1200px;
+      padding: 10px;
+      border: 10px solid white;
+      grid-template-columns: auto;
+      background-color: #2ab7ca;
+    }
+    .grid-container4 {
+      display: grid;
+      width: 1200px;
+      padding: 10px;
+      border: 10px solid white;
+      grid-template-columns: auto;
+      background-color: #ffeead;
+    }
+    .grid-container5 {
+      display: grid;
+    width: 1200px;
+    padding: 10px;
+    border: 10px solid white;
+      grid-template-columns: auto;
+      background-color: #dcedc1;
+    }
+    .grid-container6 {
+      display: grid;
+    width: 1200px;
+    padding: 10px;
+    border: 10px solid white;
+      grid-template-columns: auto;
+      background-color: cornsilk;
+    }
+    .grid-container7 {
+    display: grid;
+    width: 1200px;
+    padding: 10px;
+    border: 10px solid white;
+    grid-template-columns: auto;
+    background-color: cyan;
+    }
+    .nav-link {
+      color: black;
+      display: flex;
+      text-decoration: none;
+      padding: 14px 16px;
+    }
+    
+    header {
+      font-size: 1.5em;
+    }
+    nav {
+      background-color: rgb(70, 61, 61);
+      color: #fff;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 16px;
+    }
+    
+    body  {
+      width: 1250px;
+      height: 300px;
+    }
+    
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+       .inline-block {
+          display: inline-block;
+       }
+      
+    li {
+      margin-left: 20px;
+      }
+      @media (max-width: 500px) {
+        header {
+          padding: 10px; /* Adjust padding for better mobile display */
+      }
+      topnav a {
+        text-align: center; /* Align navigation text to the center for better mobile display */
+    }
+  
+    topnav ul a {
+        display: block; /* Make navigation items stack vertically */
+        margin: 10px;
+    }
+        body{
+          background-image: url(portfolio.jpg);
+        }
+        topnav ul {
+          flex-direction: column; /* Change navigation items to a vertical layout */
+      }
+      }
+    
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    
+    .nav-link.active {
+      background-color: #f8f8f8;
+    }
+    
+    section {
+      padding: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 20px 5px;
+    }
+    .nav-link{
+        font-size: 20px;
+        color: white;
+    }
+    section.active {
+      border: 1px solid blue;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+  }
+  
+  
+    </style>
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <h3 align="Center" style="color: aliceblue;">Pranay Gudupally</h3>
+            <a href="#About" class="active">About</a>
+            <a href="#Education">Education</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Blogs">Blogs</a>
+            <a href="#Contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </header>
+    <section id="About">
+        <div class="grid-container1">
+          <h3><u>About:</u></h3>
+          <p>I am Pranay Gudupally from Hyderabad, India. I am 25 years old and currently, I am pursuing my Master's in Computer Science at the University of New Haven, Connecticut. I have prior experience in a few technologies like C, C++, Java, HTML, CSS, JavaScript, XML, AJAX, JSON, Angular, Python.</p>
+        </div>
+      </section>
+      <section id="Education">
+        <div class="grid-container2">
+          <h3><u>Education:</u></h3>
+          <ul style="list-style-type: disc;">
+            <div class="inline-block">
+              <li>M.S. in Computer Science at the University of New Haven, Connecticut, U.S.A.</li>
+              <li>B.Tech in Electronics and Communication Engineering at Anurag Group of Institutions, Hyderabad, India.</li>
+              <li>Intermediate in M.P.C. at Narayana Junior College, Hyderabad, India.</li>
+              <li>School in Montessori High School, Kurnool, India.</li>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <section id="Experience">
+        <div class="grid-container3">
+          <h3><u>Experience:</u></h3>
+          <ul style="list-style-type: disc;">
+            <li>I have prior experience in the role of DevOps Engineer for 3 years at Infosys.</li>
+          </ul>
+        </div>
+      </section>
+      <section id="Projects">
+        <div class="grid-container4">
+          <h3><u>Projects:</u></h3>
+          <ul style="list-style-type: disc;">
+            <div class="inline-block">
+              <li>Smart Parking System using IoT.</li>
+              <li>DevOps for security products.</li>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <section id="Skills">
+        <div class="grid-container5">
+          <h3><u>Skills:</u></h3>
+          <ul style="list-style-type: disc;">
+            <div class="inline-block">
+              <li>C.</li>
+              <li>Python.</li>
+              <li>Linux.</li>
+              <li>HTML.</li>
+              <li>Oracle.</li>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <section id="Blogs">
+        <div class="grid-container6">
+          <h3><u>Blogs:</u></h3>
+          <ul style="list-style-type: disc;">
+            <div class="inline-block">
+              <li>I secured 10028 rank in the TS - EAMCET Examination - 2015.</li>
+              <li>I was appointed as a Class Representative of my class in B.Tech.</li>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <section id="Contact">
+        <div class ="grid-container7">
+          <h3><u>Contact:</u></h3>
+          <ul style="list-style-type: disc;">
+            <div class="inline-block">
+              <li>gmail: pgudu2@unh.newhaven.edu</li>
+              <li>Phone: +1 203-***-****</li>
+            </div>
+          </ul>
+        </div>
+      </section>
+    </body>
+    </html>
+    
