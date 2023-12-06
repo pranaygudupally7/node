@@ -4,8 +4,11 @@ const path = require('path');
 const { run, retrieve } = require('./connect');
 
 const server = http.createServer(async (req, res) => {
-  const urlPath = req.url;
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
+  const urlPath = req.url;
   if (urlPath === '/') {
     fs.readFile('./index.html', 'UTF-8', function (err, html) {
       res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -36,6 +39,10 @@ function serveStaticFile(res, urlPath, contentType) {
     res.end('404 Not Found');
   });
 
+  res.on('close', () => {
+    fileStream.destroy();
+  });
+
   res.writeHead(200, {
     'Content-Type': contentType,
     'Cache-Control': 'no-cache',
@@ -44,46 +51,8 @@ function serveStaticFile(res, urlPath, contentType) {
   fileStream.pipe(res);
 }
 
-const port = 3000;
+const port = 3009;
 
 server.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
-
-
-
-
-
-
-
-
-
-// const http = require('http');
-// const fs = require('fs');
-// const {run,upload,retrieve,clearCollection} = require('./connect');
-
-// const server = http.createServer( async (req, res) => {
-// const urlPath = req.url;
-
-// if (urlPath === '/'){
-//   fs.readFile("./index.html", "UTF-8", function(err, html){
-//       res.writeHead(200, {"Content-Type": "text/html"});
-//       res.end(html);
-//   });
-// } else if (urlPath === '/api') {
-//     await run();
-//     // await upload();
-//     // await clearCollection();
-//     results = await retrieve();
-//     res.end(JSON.stringify(results));
-// } else {
-//   res.end('404 Not Found');
-// }
-//   console.log(`${req.method} request received for ${req.url}`);
-// });
-
-// const port = 3000;
-
-// server.listen(port, () => {
-//   console.log(`Server running on http://localhost:${port}`);
-// });
