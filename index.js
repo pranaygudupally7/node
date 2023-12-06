@@ -18,7 +18,7 @@ const server = http.createServer(async (req, res) => {
     await run();
     results = await retrieve();
     res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify(results));
+    res.end(JSON.stringify(results, null, 2))
   } else if (urlPath.endsWith('.css') || urlPath.endsWith('.js')) {
     serveStaticFile(res, urlPath, 'text/css');
   } else if (urlPath.endsWith('.jpg') || urlPath.endsWith('.png')) {
